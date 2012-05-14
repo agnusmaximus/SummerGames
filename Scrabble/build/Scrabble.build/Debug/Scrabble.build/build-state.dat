@@ -1,0 +1,3070 @@
+TScrabble
+v7
+r0
+t350116123.809961
+cCheck dependencies
+cProcessInfoPlistFile ./Scrabble.app/Contents/Info.plist Info.plist
+cCpResource ./Scrabble.app/Contents/Resources/orbitron-black.ttf ScrabbleResources/orbitron-black.ttf
+cCpResource ./Scrabble.app/Contents/Resources/ScrabbleTile.png ScrabbleResources/ScrabbleTile.png
+cCpResource ./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt ScrabbleResources/ScrabbleBonusPositions.txt
+cCpResource ./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt ScrabbleResources/ScrabbleColorPositions.txt
+cCpResource ./Scrabble.app/Contents/Resources/click.wav ScrabbleResources/click.wav
+cCpResource ./Scrabble.app/Contents/Resources/ScrabbleLogo.png ScrabbleResources/ScrabbleLogo.png
+cCpResource ./Scrabble.app/Contents/Resources/Button.png ScrabbleResources/Button.png
+cCpResource ./Scrabble.app/Contents/Resources/icon.icns icon.icns
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd ./Scrabble.app/Contents/MacOS/Scrabble normal i386
+cTouch ./Scrabble.app
+
+N./Scrabble.app
+t1328423323
+s102
+
+N./Scrabble.app/Contents/Info.plist
+t1328423298
+s1012
+
+N./Scrabble.app/Contents/MacOS/Scrabble
+t1328423323
+s456052
+
+N./Scrabble.app/Contents/PkgInfo
+t1328423298
+s8
+
+N./blank-project.app
+t1312676031
+s102
+
+N./blank-project.app/Contents/Info.plist
+t1312676025
+s732
+
+N./blank-project.app/Contents/MacOS/blank-project
+t1312676031
+s453536
+
+N./blank-project.app/Contents/PkgInfo
+t1312676025
+s8
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004B760CB600000000002B79A0
+t1266027702
+s2849184
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004864B3FC00000000000000BF
+t1214559228
+s191
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B760CD900000000000D66EC
+t1266027737
+s878316
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004C0FDD7E000000000000A5F0
+t1276108158
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F0F8C540000000000785970
+t1326419028
+s7887216
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/Button.png
+t1312676051
+s7561
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+t1312676051
+s239
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+t1312676051
+s239
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleLogo.png
+t1312676051
+s239389
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleTile.png
+t1312676051
+s8207
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/click.wav
+t1312676051
+s11754
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/orbitron-black.ttf
+t1312676051
+s47256
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsBlock.h
+c000000004E3A4D2B000000000000050F
+t1312443691
+s1295
+i<AppKit/AppKit.h>
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsBlock.m
+c000000004E3BD55B0000000000001D4E
+t1312544091
+s7502
+i"GraphicsBlock.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsContent.h
+c000000004E2B18980000000000000226
+t1311447192
+s550
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsContent.m
+c000000004E3A315700000000000003F3
+t1312436567
+s1011
+i"GraphicsContent.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsCore.h
+c000000004E3DB35F0000000000000F63
+t1312666463
+s3939
+i<Cocoa/Cocoa.h>
+i<QuartzCore/QuartzCore.h>
+i"ScrabbleGameStates.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsCore.m
+c000000004E3DDCF60000000000005B15
+t1312677110
+s23317
+i"GraphicsCore.h"
+i"Popup.h"
+i"GraphicsBlock.h"
+i"GraphicsContent.h"
+i"SpeechSynthesizer.h"
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Popup.h
+c000000004E3A43A0000000000000011D
+t1312441248
+s285
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Popup.m
+c000000004E3A465300000000000002F1
+t1312441939
+s753
+i"Popup.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp
+c000000004E3E27280000000000001492
+t1312696104
+s5266
+i<iostream>
+i<pthread.h>
+i"scanner.h"
+i"ScrabbleGameStates.h"
+i"ScrabbleGraphics.h"
+i"ScrabbleBoard.h"
+i"ScrabbleLetter.h"
+i"ScrabbleUser.h"
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp
+c000000004E3B93270000000000000F68
+t1312527143
+s3944
+i"ScrabbleBoard.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.h
+c000000004E32815D00000000000005A3
+t1311932765
+s1443
+i"ScrabbleTile.h"
+i"ScrabbleUser.h"
+i"grid.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp
+c000000004E4CB7C40000000000003BE2
+t1313650628
+s15330
+i"ScrabbleChecker.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.h
+c000000004E3BA14A0000000000000B06
+t1312530762
+s2822
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleScore.h"
+i"set.h"
+i"grid.h"
+i"lexicon.h"
+i"map.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleGameStates.h
+c000000004E3B6E9C00000000000000E2
+t1312517788
+s226
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleGraphics.h
+c000000004E3BCC140000000000000F7B
+t1312541716
+s3963
+i"simpio.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleGraphics.mm
+c000000004E3DB2D30000000000002F1E
+t1312666323
+s12062
+i"sound.h"
+i"GraphicsCore.h"
+i"ScrabbleGraphics.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleLetter.cpp
+c000000004E3C4EAC0000000000001095
+t1312575148
+s4245
+i"ScrabbleLetter.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleLetter.h
+c000000004E3600B80000000000000755
+t1312161976
+s1877
+i"ScrabbleTile.h"
+i"random.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp
+c000000004E3DDD1C000000000000432E
+t1312677148
+s17198
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.h
+c000000004E3C69B500000000000009F0
+t1312582069
+s2544
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"set.h"
+i"lexicon.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabblePoint.cpp
+c000000004E3B946900000000000003B6
+t1312527465
+s950
+i"ScrabblePoint.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabblePoint.h
+c000000004E2B45E10000000000000218
+t1311458785
+s536
+i<math.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp
+c000000004E4CB7EE000000000000056A
+t1313650670
+s1386
+i"ScrabbleRandom.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.h
+c000000004E3E27880000000000000213
+t1312696200
+s531
+i<stdlib.h>
+i<time.h>
+i"vector.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/Button.png
+c000000004E3B625C0000000000001D89
+t1312514652
+s7561
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt
+c000000004E2A17B000000000000000EF
+t1311381424
+s239
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt
+c000000004E2A177500000000000000EF
+t1311381365
+s239
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png
+c000000004E3B6BB1000000000003A71D
+t1312517041
+s239389
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png
+c000000004E2DC9E3000000000000200F
+t1311623651
+s8207
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/click.wav
+c000000004E34ED3E0000000000002DEA
+t1312091454
+s11754
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf
+c000000004B17D2CA000000000000B898
+t1259852490
+s47256
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleScore.cpp
+c000000004E323EA700000000000005DF
+t1311915687
+s1503
+i"ScrabbleScore.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleScore.h
+c000000004E2F8B800000000000000381
+t1311738752
+s897
+i"ScrabbleGraphics.h"
+i"ScrabbleLetter.h"
+i"set.h"
+i"stack.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleSize.cpp
+c000000004E29FA3C000000000000035B
+t1311373884
+s859
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleSize.h
+c000000004E2B45E50000000000000278
+t1311458789
+s632
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleTile.cpp
+c000000004E3B93550000000000000999
+t1312527189
+s2457
+i"ScrabbleTile.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleTile.h
+c000000004E2DE47D00000000000006E2
+t1311630461
+s1762
+i"ScrabbleGraphics.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp
+c000000004E3E28100000000000002E6A
+t1312696336
+s11882
+i"ScrabbleUser.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.h
+c000000004E3C6CF80000000000000787
+t1312582904
+s1927
+i"ScrabbleLetter.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"grid.h"
+i"set.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Sounds.h
+c000000004E34895C0000000000000169
+t1312065884
+s361
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Sounds.m
+c000000004E3507BB00000000000003D8
+t1312098235
+s984
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/SpeechSynthesizer.h
+c000000004E3DB8CD0000000000000181
+t1312667853
+s385
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/SpeechSynthesizer.m
+c000000004E3DCD24000000000000024E
+t1312673060
+s590
+i"SpeechSynthesizer.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o
+t1312676053
+s33440
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o
+t1312676054
+s16604
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o
+t1312677170
+s72124
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o
+t1312676056
+s15208
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.LinkFileList
+c000000004E3E277D000000000000088C
+t1312696189
+s2188
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+t1312696251
+s89720
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+t1312696252
+s126224
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+t1313650630
+s222064
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o
+t1312676052
+s75080
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+t1312676053
+s69824
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+t1312696252
+s242984
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o
+t1312676052
+s4980
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+t1313650670
+s96068
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o
+t1312676055
+s103424
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o
+t1312676052
+s5088
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o
+t1312676052
+s59816
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+t1312696352
+s124012
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o
+t1312676056
+s10068
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o
+t1312676056
+s8924
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/bst.h
+c000000004E291C240000000000001556
+t1311317028
+s5462
+i"genlib.h"
+i"cmpfn.h"
+i"stack.h"
+i"foreach.h"
+i"private/bst.h"
+i"private/bst.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/cmpfn.h
+c000000004E291C240000000000000311
+t1311317028
+s785
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/foreach.h
+c000000004E291C24000000000000081E
+t1311317028
+s2078
+i"genlib.h"
+i<ios>
+i<fstream>
+i<sstream>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/genlib.h
+c000000004E291C2400000000000007DD
+t1311317028
+s2013
+i<string>
+i<exception>
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/grid.h
+c000000004E291C240000000000001AC6
+t1311317028
+s6854
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/grid.h"
+i"private/grid.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/lexicon.h
+c000000004E291C24000000000000184F
+t1311317028
+s6223
+i"genlib.h"
+i"foreach.h"
+i"set.h"
+i"stack.h"
+i<cctype>
+i"private/lexicon.h"
+i"private/lexicon.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/libcs106.a
+c000000004E291C240000000000093A10
+t1311317028
+s604688
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/map.h
+c000000004E291C2400000000000019A0
+t1311317028
+s6560
+i"genlib.h"
+i"vector.h"
+i"foreach.h"
+i<string>
+i<cstdlib>
+i"private/map.h"
+i"private/map.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/bst.cpp
+c000000004E291C2400000000000037EE
+t1311317028
+s14318
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/bst.h
+c000000004E291C240000000000000AA8
+t1311317028
+s2728
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/grid.cpp
+c000000004E291C240000000000001676
+t1311317028
+s5750
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/grid.h
+c000000004E291C240000000000000924
+t1311317028
+s2340
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/lexicon.cpp
+c000000004E291C24000000000000026E
+t1311317028
+s622
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/lexicon.h
+c000000004E291C240000000000000A4C
+t1311317028
+s2636
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/map.cpp
+c000000004E291C2400000000000024A1
+t1311317028
+s9377
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/map.h
+c000000004E291C24000000000000091E
+t1311317028
+s2334
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/scanner.h
+c000000004E291C240000000000000386
+t1311317028
+s902
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/set.cpp
+c000000004E291C2400000000000013BC
+t1311317028
+s5052
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/set.h
+c000000004E291C2400000000000006AC
+t1311317028
+s1708
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/stack.cpp
+c000000004E291C240000000000000596
+t1311317028
+s1430
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/stack.h
+c000000004E291C24000000000000046E
+t1311317028
+s1134
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/vector.cpp
+c000000004E3B880100000000000017CF
+t1312524289
+s6095
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/private/vector.h
+c000000004E291C2400000000000006AB
+t1311317028
+s1707
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/random.h
+c000000004E291C2400000000000007DB
+t1311317028
+s2011
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/scanner.h
+c000000004E291C240000000000002232
+t1311317028
+s8754
+i"genlib.h"
+i"stack.h"
+i<string>
+i<iostream>
+i"private/scanner.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/set.h
+c000000004E291C240000000000001BEB
+t1311317028
+s7147
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+i"foreach.h"
+i"private/set.h"
+i"private/set.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/simpio.h
+c000000004E291C240000000000000671
+t1311317028
+s1649
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/sound.h
+c000000004E291C2400000000000004D3
+t1311317028
+s1235
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/stack.h
+c000000004E291C240000000000000B30
+t1311317028
+s2864
+i"vector.h"
+i"private/stack.h"
+i"private/stack.cpp"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/strutils.h
+c000000004E291C240000000000000877
+t1311317028
+s2167
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble Mac/Scrabble/cs106/vector.h
+c000000004E291C240000000000001BDB
+t1311317028
+s7131
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/vector.h"
+i"private/vector.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/Button.png
+t1312676051
+s7561
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+t1312676051
+s239
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+t1312676051
+s239
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleLogo.png
+t1312676051
+s239389
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleTile.png
+t1312676051
+s8207
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/click.wav
+t1312676051
+s11754
+
+N/Users/maxlam/Desktop/Scrabble/./Scrabble.app/Contents/Resources/orbitron-black.ttf
+t1312676051
+s47256
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/Button.png
+t1312676025
+s7561
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/ScrabbleBonusPositions.txt
+t1312676025
+s239
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/ScrabbleColorPositions.txt
+t1312676025
+s239
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/ScrabbleLogo.png
+t1312676025
+s239389
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/ScrabbleTile.png
+t1312676025
+s8207
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/click.wav
+t1312676025
+s11754
+
+N/Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources/orbitron-black.ttf
+t1312676025
+s47256
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsBlock.h
+c000000004E3A4D2B000000000000050F
+t1312443691
+s1295
+i<AppKit/AppKit.h>
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsBlock.m
+c000000004E3BD55B0000000000001D4E
+t1312544091
+s7502
+i"GraphicsBlock.h"
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsContent.h
+c000000004E2B18980000000000000226
+t1311447192
+s550
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsContent.m
+c000000004E3A315700000000000003F3
+t1312436567
+s1011
+i"GraphicsContent.h"
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsCore.h
+c000000004E3DB35F0000000000000F63
+t1312666463
+s3939
+i<Cocoa/Cocoa.h>
+i<QuartzCore/QuartzCore.h>
+i"ScrabbleGameStates.h"
+
+N/Users/maxlam/Desktop/Scrabble/GraphicsCore.m
+c000000004E3DDCF60000000000005B15
+t1312677110
+s23317
+i"GraphicsCore.h"
+i"Popup.h"
+i"GraphicsBlock.h"
+i"GraphicsContent.h"
+i"SpeechSynthesizer.h"
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/Scrabble/Popup.h
+c000000004E3A43A0000000000000011D
+t1312441248
+s285
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble/Popup.m
+c000000004E3A465300000000000002F1
+t1312441939
+s753
+i"Popup.h"
+
+N/Users/maxlam/Desktop/Scrabble/Scrabble.cpp
+c000000004E3DDD480000000000001492
+t1312677192
+s5266
+i<iostream>
+i<pthread.h>
+i"scanner.h"
+i"ScrabbleGameStates.h"
+i"ScrabbleGraphics.h"
+i"ScrabbleBoard.h"
+i"ScrabbleLetter.h"
+i"ScrabbleUser.h"
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp
+c000000004E3B93270000000000000F68
+t1312527143
+s3944
+i"ScrabbleBoard.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleBoard.h
+c000000004E32815D00000000000005A3
+t1311932765
+s1443
+i"ScrabbleTile.h"
+i"ScrabbleUser.h"
+i"grid.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp
+c000000004E3BCB480000000000003BF6
+t1312541512
+s15350
+i"ScrabbleChecker.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleChecker.h
+c000000004E3BA14A0000000000000B06
+t1312530762
+s2822
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleScore.h"
+i"set.h"
+i"grid.h"
+i"lexicon.h"
+i"map.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleGameStates.h
+c000000004E3B6E9C00000000000000E2
+t1312517788
+s226
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.h
+c000000004E3BCC140000000000000F7B
+t1312541716
+s3963
+i"simpio.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm
+c000000004E3DB2D30000000000002F1E
+t1312666323
+s12062
+i"sound.h"
+i"GraphicsCore.h"
+i"ScrabbleGraphics.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp
+c000000004E3C4EAC0000000000001095
+t1312575148
+s4245
+i"ScrabbleLetter.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleLetter.h
+c000000004E3600B80000000000000755
+t1312161976
+s1877
+i"ScrabbleTile.h"
+i"random.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp
+c000000004E3DDD1C000000000000432E
+t1312677148
+s17198
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.h
+c000000004E3C69B500000000000009F0
+t1312582069
+s2544
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"set.h"
+i"lexicon.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp
+c000000004E3B946900000000000003B6
+t1312527465
+s950
+i"ScrabblePoint.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabblePoint.h
+c000000004E2B45E10000000000000218
+t1311458785
+s536
+i<math.h>
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp
+c000000004E3B86460000000000000507
+t1312523846
+s1287
+i"ScrabbleRandom.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleRandom.h
+c000000004E3B840100000000000001ED
+t1312523265
+s493
+i<stdlib.h>
+i<time.h>
+i"vector.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/Button.png
+c000000004E3B625C0000000000001D89
+t1312514652
+s7561
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt
+c000000004E2A17B000000000000000EF
+t1311381424
+s239
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt
+c000000004E2A177500000000000000EF
+t1311381365
+s239
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleLogo.png
+c000000004E3B6BB1000000000003A71D
+t1312517041
+s239389
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleTile.png
+c000000004E2DC9E3000000000000200F
+t1311623651
+s8207
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/click.wav
+c000000004E34ED3E0000000000002DEA
+t1312091454
+s11754
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleResources/orbitron-black.ttf
+c000000004B17D2CA000000000000B898
+t1259852490
+s47256
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp
+c000000004E323EA700000000000005DF
+t1311915687
+s1503
+i"ScrabbleScore.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleScore.h
+c000000004E2F8B800000000000000381
+t1311738752
+s897
+i"ScrabbleGraphics.h"
+i"ScrabbleLetter.h"
+i"set.h"
+i"stack.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp
+c000000004E29FA3C000000000000035B
+t1311373884
+s859
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleSize.h
+c000000004E2B45E50000000000000278
+t1311458789
+s632
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp
+c000000004E3B93550000000000000999
+t1312527189
+s2457
+i"ScrabbleTile.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleTile.h
+c000000004E2DE47D00000000000006E2
+t1311630461
+s1762
+i"ScrabbleGraphics.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp
+c000000004E3C70580000000000002DF0
+t1312583768
+s11760
+i"ScrabbleUser.h"
+
+N/Users/maxlam/Desktop/Scrabble/ScrabbleUser.h
+c000000004E3C6CF80000000000000787
+t1312582904
+s1927
+i"ScrabbleLetter.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"grid.h"
+i"set.h"
+
+N/Users/maxlam/Desktop/Scrabble/Sounds.h
+c000000004E34895C0000000000000169
+t1312065884
+s361
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble/Sounds.m
+c000000004E3507BB00000000000003D8
+t1312098235
+s984
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.h
+c000000004E3DB8CD0000000000000181
+t1312667853
+s385
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m
+c000000004E3DCD24000000000000024E
+t1312673060
+s590
+i"SpeechSynthesizer.h"
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o
+t1312676053
+s33440
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o
+t1312676054
+s16604
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o
+t1312677170
+s72124
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o
+t1312676056
+s15208
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.LinkFileList
+c000000004E3DD8D300000000000007A2
+t1312676051
+s1954
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+t1312677169
+s89664
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+t1312676052
+s126172
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+t1312676054
+s222012
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o
+t1312676052
+s75080
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+t1312676053
+s69824
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+t1312677149
+s242920
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o
+t1312676052
+s4980
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+t1312676055
+s95452
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o
+t1312676055
+s103424
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o
+t1312676052
+s5088
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o
+t1312676052
+s59816
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+t1312676054
+s123828
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o
+t1312676056
+s10068
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o
+t1312676056
+s8924
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/blank-project.LinkFileList
+c000000004E3DD8B900000000000007A2
+t1312676025
+s1954
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsBlock.plist
+t1312676739
+s276
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsContent.plist
+t1312676739
+s276
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsCore.plist
+t1312676739
+s276
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/Popup.plist
+t1312676740
+s276
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/Sounds.plist
+t1312676740
+s276
+
+N/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/SpeechSynthesizer.plist
+t1312676739
+s276
+
+N/Users/maxlam/Desktop/Scrabble/cs106/bst.h
+c000000004E291C240000000000001556
+t1311317028
+s5462
+i"genlib.h"
+i"cmpfn.h"
+i"stack.h"
+i"foreach.h"
+i"private/bst.h"
+i"private/bst.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/cmpfn.h
+c000000004E291C240000000000000311
+t1311317028
+s785
+
+N/Users/maxlam/Desktop/Scrabble/cs106/foreach.h
+c000000004E291C24000000000000081E
+t1311317028
+s2078
+i"genlib.h"
+i<ios>
+i<fstream>
+i<sstream>
+
+N/Users/maxlam/Desktop/Scrabble/cs106/genlib.h
+c000000004E291C2400000000000007DD
+t1311317028
+s2013
+i<string>
+i<exception>
+
+N/Users/maxlam/Desktop/Scrabble/cs106/grid.h
+c000000004E291C240000000000001AC6
+t1311317028
+s6854
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/grid.h"
+i"private/grid.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/lexicon.h
+c000000004E291C24000000000000184F
+t1311317028
+s6223
+i"genlib.h"
+i"foreach.h"
+i"set.h"
+i"stack.h"
+i<cctype>
+i"private/lexicon.h"
+i"private/lexicon.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/libcs106.a
+c000000004E291C240000000000093A10
+t1311317028
+s604688
+
+N/Users/maxlam/Desktop/Scrabble/cs106/map.h
+c000000004E291C2400000000000019A0
+t1311317028
+s6560
+i"genlib.h"
+i"vector.h"
+i"foreach.h"
+i<string>
+i<cstdlib>
+i"private/map.h"
+i"private/map.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/bst.cpp
+c000000004E291C2400000000000037EE
+t1311317028
+s14318
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/bst.h
+c000000004E291C240000000000000AA8
+t1311317028
+s2728
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/grid.cpp
+c000000004E291C240000000000001676
+t1311317028
+s5750
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/grid.h
+c000000004E291C240000000000000924
+t1311317028
+s2340
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/lexicon.cpp
+c000000004E291C24000000000000026E
+t1311317028
+s622
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/lexicon.h
+c000000004E291C240000000000000A4C
+t1311317028
+s2636
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/map.cpp
+c000000004E291C2400000000000024A1
+t1311317028
+s9377
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/map.h
+c000000004E291C24000000000000091E
+t1311317028
+s2334
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/scanner.h
+c000000004E291C240000000000000386
+t1311317028
+s902
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/set.cpp
+c000000004E291C2400000000000013BC
+t1311317028
+s5052
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/set.h
+c000000004E291C2400000000000006AC
+t1311317028
+s1708
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/stack.cpp
+c000000004E291C240000000000000596
+t1311317028
+s1430
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/stack.h
+c000000004E291C24000000000000046E
+t1311317028
+s1134
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/vector.cpp
+c000000004E3B880100000000000017CF
+t1312524289
+s6095
+
+N/Users/maxlam/Desktop/Scrabble/cs106/private/vector.h
+c000000004E291C2400000000000006AB
+t1311317028
+s1707
+
+N/Users/maxlam/Desktop/Scrabble/cs106/random.h
+c000000004E291C2400000000000007DB
+t1311317028
+s2011
+
+N/Users/maxlam/Desktop/Scrabble/cs106/scanner.h
+c000000004E291C240000000000002232
+t1311317028
+s8754
+i"genlib.h"
+i"stack.h"
+i<string>
+i<iostream>
+i"private/scanner.h"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/set.h
+c000000004E291C240000000000001BEB
+t1311317028
+s7147
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+i"foreach.h"
+i"private/set.h"
+i"private/set.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/simpio.h
+c000000004E291C240000000000000671
+t1311317028
+s1649
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/sound.h
+c000000004E291C2400000000000004D3
+t1311317028
+s1235
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/stack.h
+c000000004E291C240000000000000B30
+t1311317028
+s2864
+i"vector.h"
+i"private/stack.h"
+i"private/stack.cpp"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/strutils.h
+c000000004E291C240000000000000877
+t1311317028
+s2167
+i"genlib.h"
+
+N/Users/maxlam/Desktop/Scrabble/cs106/vector.h
+c000000004E291C240000000000001BDB
+t1311317028
+s7131
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/vector.h"
+i"private/vector.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/Button.png
+t1328423298
+s7561
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/Scrabble.app
+t2
+s0
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+t1328423298
+s239
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+t1328423298
+s239
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleLogo.png
+t1328423298
+s239389
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/ScrabbleTile.png
+t1328423298
+s8207
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/click.wav
+t1328423298
+s11754
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/icon.icns
+t1328423298
+s78800
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/icon.png
+t1328331974
+s12928
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources/orbitron-black.ttf
+t1328423298
+s47256
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.h
+c000000004E3A4D2B000000000000050F
+t1312443691
+s1295
+i<AppKit/AppKit.h>
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m
+c000000004E3BD55B0000000000001D4E
+t1312544091
+s7502
+i"GraphicsBlock.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.h
+c000000004E2B18980000000000000226
+t1311447192
+s550
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m
+c000000004E3A315700000000000003F3
+t1312436567
+s1011
+i"GraphicsContent.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.h
+c000000004E3DB35F0000000000000F63
+t1312666463
+s3939
+i<Cocoa/Cocoa.h>
+i<QuartzCore/QuartzCore.h>
+i"ScrabbleGameStates.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m
+c000000004F2CC2E60000000000005B19
+t1328333542
+s23321
+i"GraphicsCore.h"
+i"Popup.h"
+i"GraphicsBlock.h"
+i"GraphicsContent.h"
+i"SpeechSynthesizer.h"
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.h
+c000000004E3A43A0000000000000011D
+t1312441248
+s285
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m
+c000000004E3A465300000000000002F1
+t1312441939
+s753
+i"Popup.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp
+c000000004F2E219A0000000000001492
+t1328423322
+s5266
+i<iostream>
+i<pthread.h>
+i"scanner.h"
+i"ScrabbleGameStates.h"
+i"ScrabbleGraphics.h"
+i"ScrabbleBoard.h"
+i"ScrabbleLetter.h"
+i"ScrabbleUser.h"
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp
+c000000004E3B93270000000000000F68
+t1312527143
+s3944
+i"ScrabbleBoard.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.h
+c000000004E32815D00000000000005A3
+t1311932765
+s1443
+i"ScrabbleTile.h"
+i"ScrabbleUser.h"
+i"grid.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp
+c000000004E4CB7C40000000000003BE2
+t1313650628
+s15330
+i"ScrabbleChecker.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.h
+c000000004E3BA14A0000000000000B06
+t1312530762
+s2822
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleScore.h"
+i"set.h"
+i"grid.h"
+i"lexicon.h"
+i"map.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGameStates.h
+c000000004E3B6E9C00000000000000E2
+t1312517788
+s226
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.h
+c000000004E3BCC140000000000000F7B
+t1312541716
+s3963
+i"simpio.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm
+c000000004F2CC2570000000000002F1F
+t1328333399
+s12063
+i"sound.h"
+i"GraphicsCore.h"
+i"ScrabbleGraphics.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp
+c000000004E3C4EAC0000000000001095
+t1312575148
+s4245
+i"ScrabbleLetter.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.h
+c000000004E3600B80000000000000755
+t1312161976
+s1877
+i"ScrabbleTile.h"
+i"random.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp
+c000000004E3DDD1C000000000000432E
+t1312677148
+s17198
+i"ScrabbleOpponent.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.h
+c000000004E3C69B500000000000009F0
+t1312582069
+s2544
+i"ScrabbleLetter.h"
+i"ScrabbleBoard.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"set.h"
+i"lexicon.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp
+c000000004E3B946900000000000003B6
+t1312527465
+s950
+i"ScrabblePoint.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.h
+c000000004E2B45E10000000000000218
+t1311458785
+s536
+i<math.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp
+c000000004E4CB7EE000000000000056A
+t1313650670
+s1386
+i"ScrabbleRandom.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.h
+c000000004E3E27880000000000000213
+t1312696200
+s531
+i<stdlib.h>
+i<time.h>
+i"vector.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/Button.png
+c000000004E3B625C0000000000001D89
+t1312514652
+s7561
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt
+c000000004E2A17B000000000000000EF
+t1311381424
+s239
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt
+c000000004E2A177500000000000000EF
+t1311381365
+s239
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png
+c000000004E3B6BB1000000000003A71D
+t1312517041
+s239389
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png
+c000000004E2DC9E3000000000000200F
+t1311623651
+s8207
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/click.wav
+c000000004E34ED3E0000000000002DEA
+t1312091454
+s11754
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf
+c000000004B17D2CA000000000000B898
+t1259852490
+s47256
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp
+c000000004E323EA700000000000005DF
+t1311915687
+s1503
+i"ScrabbleScore.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.h
+c000000004E2F8B800000000000000381
+t1311738752
+s897
+i"ScrabbleGraphics.h"
+i"ScrabbleLetter.h"
+i"set.h"
+i"stack.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp
+c000000004F2CC0C8000000000000035B
+t1328333000
+s859
+i"ScrabbleSize.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.h
+c000000004E2B45E50000000000000278
+t1311458789
+s632
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp
+c000000004F2CBCCF0000000000000999
+t1328331983
+s2457
+i"ScrabbleTile.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.h
+c000000004E2DE47D00000000000006E2
+t1311630461
+s1762
+i"ScrabbleGraphics.h"
+i"ScrabblePoint.h"
+i"ScrabbleSize.h"
+i<iostream>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp
+c000000004E3E28100000000000002E6A
+t1312696336
+s11882
+i"ScrabbleUser.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.h
+c000000004E3C6CF80000000000000787
+t1312582904
+s1927
+i"ScrabbleLetter.h"
+i"ScrabbleRandom.h"
+i"ScrabbleChecker.h"
+i"vector.h"
+i"grid.h"
+i"set.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.h
+c000000004E34895C0000000000000169
+t1312065884
+s361
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m
+c000000004F2CC41900000000000003DA
+t1328333849
+s986
+i"Sounds.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.h
+c000000004E3DB8CD0000000000000181
+t1312667853
+s385
+i<Cocoa/Cocoa.h>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m
+c000000004E3DCD24000000000000024E
+t1312673060
+s590
+i"SpeechSynthesizer.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o
+t1328333177
+s33536
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o
+t1328333178
+s16696
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o
+t1328333542
+s72220
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o
+t1328333180
+s15300
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.LinkFileList
+c000000004F2CC1770000000000000AF0
+t1328333175
+s2800
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+t1328423323
+s89856
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+t1328333176
+s126360
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+t1328333178
+s222200
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o
+t1328333400
+s75216
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+t1328333177
+s69968
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+t1328333179
+s243112
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o
+t1328333176
+s5076
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+t1328333178
+s96204
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o
+t1328333178
+s103612
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o
+t1328333176
+s5184
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o
+t1328333176
+s59960
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+t1328333177
+s124140
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o
+t1328333850
+s10164
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o
+t1328333179
+s9016
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/bst.h
+c000000004E291C240000000000001556
+t1311317028
+s5462
+i"genlib.h"
+i"cmpfn.h"
+i"stack.h"
+i"foreach.h"
+i"private/bst.h"
+i"private/bst.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/cmpfn.h
+c000000004E291C240000000000000311
+t1311317028
+s785
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/foreach.h
+c000000004E291C24000000000000081E
+t1311317028
+s2078
+i"genlib.h"
+i<ios>
+i<fstream>
+i<sstream>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/genlib.h
+c000000004E291C2400000000000007DD
+t1311317028
+s2013
+i<string>
+i<exception>
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/grid.h
+c000000004E291C240000000000001AC6
+t1311317028
+s6854
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/grid.h"
+i"private/grid.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/lexicon.h
+c000000004E291C24000000000000184F
+t1311317028
+s6223
+i"genlib.h"
+i"foreach.h"
+i"set.h"
+i"stack.h"
+i<cctype>
+i"private/lexicon.h"
+i"private/lexicon.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/libcs106.a
+c000000004E291C240000000000093A10
+t1311317028
+s604688
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/map.h
+c000000004E291C2400000000000019A0
+t1311317028
+s6560
+i"genlib.h"
+i"vector.h"
+i"foreach.h"
+i<string>
+i<cstdlib>
+i"private/map.h"
+i"private/map.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/bst.cpp
+c000000004E291C2400000000000037EE
+t1311317028
+s14318
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/bst.h
+c000000004E291C240000000000000AA8
+t1311317028
+s2728
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/grid.cpp
+c000000004E291C240000000000001676
+t1311317028
+s5750
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/grid.h
+c000000004E291C240000000000000924
+t1311317028
+s2340
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/lexicon.cpp
+c000000004E291C24000000000000026E
+t1311317028
+s622
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/lexicon.h
+c000000004E291C240000000000000A4C
+t1311317028
+s2636
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/map.cpp
+c000000004E291C2400000000000024A1
+t1311317028
+s9377
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/map.h
+c000000004E291C24000000000000091E
+t1311317028
+s2334
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/scanner.h
+c000000004E291C240000000000000386
+t1311317028
+s902
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/set.cpp
+c000000004E291C2400000000000013BC
+t1311317028
+s5052
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/set.h
+c000000004E291C2400000000000006AC
+t1311317028
+s1708
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/stack.cpp
+c000000004E291C240000000000000596
+t1311317028
+s1430
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/stack.h
+c000000004E291C24000000000000046E
+t1311317028
+s1134
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/vector.cpp
+c000000004E3B880100000000000017CF
+t1312524289
+s6095
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/private/vector.h
+c000000004E291C2400000000000006AB
+t1311317028
+s1707
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/random.h
+c000000004E291C2400000000000007DB
+t1311317028
+s2011
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/scanner.h
+c000000004E291C240000000000002232
+t1311317028
+s8754
+i"genlib.h"
+i"stack.h"
+i<string>
+i<iostream>
+i"private/scanner.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/set.h
+c000000004E291C240000000000001BEB
+t1311317028
+s7147
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+i"foreach.h"
+i"private/set.h"
+i"private/set.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/simpio.h
+c000000004E291C240000000000000671
+t1311317028
+s1649
+i"genlib.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/sound.h
+c000000004E291C2400000000000004D3
+t1311317028
+s1235
+i"genlib.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/stack.h
+c000000004E291C240000000000000B30
+t1311317028
+s2864
+i"vector.h"
+i"private/stack.h"
+i"private/stack.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/strutils.h
+c000000004E291C240000000000000877
+t1311317028
+s2167
+i"genlib.h"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106/vector.h
+c000000004E291C240000000000001BDB
+t1311317028
+s7131
+i"genlib.h"
+i"strutils.h"
+i"foreach.h"
+i"private/vector.h"
+i"private/vector.cpp"
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.icns
+c000000004F2CBD5500000000000133D0
+t1328332117
+s78800
+
+N/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.png
+c000000004F2CBB3D0000000000003280
+t1328331581
+s12928
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app
+t1328332495
+s102
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Info.plist
+t1328332494
+s1012
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/MacOS/Scrabble
+t1328332495
+s455124
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/PkgInfo
+t1328332494
+s8
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/Button.png
+t1328332494
+s7561
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+t1328332494
+s239
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+t1328332494
+s239
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleLogo.png
+t1328332494
+s239389
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleTile.png
+t1328332494
+s8207
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/click.wav
+t1328332494
+s11754
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/icon.icns
+t1328332494
+s78800
+
+N/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/orbitron-black.ttf
+t1328332494
+s47256
+
+NInfo.plist
+c000000004F2CBD0A0000000000000408
+t1328332042
+s1032
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m
+s334369538.931895
+e334369539.481226
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/GraphicsBlock.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@54"Analyze /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m334369538#334369539#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#46"/Users/maxlam/Desktop/Scrabble/GraphicsBlock.m8605505120#878"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsBlock.plist0#
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/GraphicsContent.m
+s334369539.481301
+e334369539.901457
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/GraphicsContent.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@56"Analyze /Users/maxlam/Desktop/Scrabble/GraphicsContent.m334369539#334369539#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#48"/Users/maxlam/Desktop/Scrabble/GraphicsContent.m8602080544#882"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/GraphicsContent.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsContent.plist0#
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/GraphicsCore.m
+s334369538.928827
+e334369539.562110
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/GraphicsCore.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@53"Analyze /Users/maxlam/Desktop/Scrabble/GraphicsCore.m334369538#334369539#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#45"/Users/maxlam/Desktop/Scrabble/GraphicsCore.m27584968630796400#876"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/GraphicsCore.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/GraphicsCore.plist0#
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/Popup.m
+s334369539.934754
+e334369540.311014
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/Popup.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@46"Analyze /Users/maxlam/Desktop/Scrabble/Popup.m334369539#334369540#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#38"/Users/maxlam/Desktop/Scrabble/Popup.m8605423072#862"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/Popup.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/Popup.plist0#
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/Sounds.m
+s334369539.901525
+e334369540.282553
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/Sounds.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@47"Analyze /Users/maxlam/Desktop/Scrabble/Sounds.m334369539#334369540#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#39"/Users/maxlam/Desktop/Scrabble/Sounds.m8605447072#864"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/Sounds.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/Sounds.plist0#
+
+CAnalyze /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m
+s334369539.562186
+e334369539.934566
+r1
+xAnalyze
+x/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m
+oclang: warning: argument unused during compilation: '-fstack-check'
+lSLF07#2@58"Analyze /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m334369539#334369539#0(68"clang: warning: argument unused during compilation: '-fstack-check'0(0#0#50"/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m8604126304#886"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check --analyze /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/StaticAnalyzer/normal/i386/SpeechSynthesizer.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies350116123#350116123#0(0"0(0#1#0"8600935680#0"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsBlock.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350025976.714185
+e350025977.369505
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m350025976#350025977#0(0"0(0#0#93"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m8626403776#1118"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsBlock.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334368852.674060
+e334368853.410930
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o
+x/Users/maxlam/Desktop/Scrabble/GraphicsBlock.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m334368852#334368853#0(0"0(0#0#46"/Users/maxlam/Desktop/Scrabble/GraphicsBlock.m8601689120#824"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/GraphicsBlock.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsBlock.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsContent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350025977.699149
+e350025978.306035
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m350025977#350025978#0(0"0(0#0#95"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m8626448640#1122"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsContent.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o /Users/maxlam/Desktop/Scrabble/GraphicsContent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334368853.750240
+e334368854.594283
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o
+x/Users/maxlam/Desktop/Scrabble/GraphicsContent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/maxlam/Desktop/Scrabble/GraphicsContent.m334368853#334368854#0(0"0(0#0#48"/Users/maxlam/Desktop/Scrabble/GraphicsContent.m8608398528#828"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/GraphicsContent.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsContent.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/GraphicsCore.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350026355.120976
+e350026355.121884
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m350026355#350026355#0(0"0(0#0#92"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m8623884160#1116"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/GraphicsCore.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o /Users/maxlam/Desktop/Scrabble/GraphicsCore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334369969.491385
+e334369970.371161
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o
+x/Users/maxlam/Desktop/Scrabble/GraphicsCore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/maxlam/Desktop/Scrabble/GraphicsCore.m334369969#334369970#0(0"0(0#0#45"/Users/maxlam/Desktop/Scrabble/GraphicsCore.m8608445600#822"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/GraphicsCore.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/GraphicsCore.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Popup.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350025979.723006
+e350025980.262512
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m350025979#350025980#0(0"0(0#0#85"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m8610460256#1102"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Popup.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o /Users/maxlam/Desktop/Scrabble/Popup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334368856.128457
+e334368856.751522
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o
+x/Users/maxlam/Desktop/Scrabble/Popup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/maxlam/Desktop/Scrabble/Popup.m334368856#334368856#0(0"0(0#0#38"/Users/maxlam/Desktop/Scrabble/Popup.m8607943712#808"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/Popup.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Popup.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s334389051.545745
+e334389051.955690
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp334389051#334389051#0(0"0(0#0#56"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp8619467552#926"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Scrabble.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350116123.395236
+e350116123.738664
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp350116123#350116123#0(0"0(0#0#90"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp8607454080#1130"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Scrabble.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o /Users/maxlam/Desktop/Scrabble/Scrabble.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334369969.477856
+e334369969.965387
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o
+x/Users/maxlam/Desktop/Scrabble/Scrabble.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/maxlam/Desktop/Scrabble/Scrabble.cpp334369969#334369969#0(0"0(0#0#43"/Users/maxlam/Desktop/Scrabble/Scrabble.cpp3401968361984191488#836"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/Scrabble.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s334389051.546609
+e334389052.023604
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp334389051#334389052#0(0"0(0#0#61"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp8619280512#936"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleBoard.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025975.888958
+e350025976.321719
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp350025975#350025976#0(0"0(0#0#95"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp8626725376#1140"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleBoard.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o /Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368851.534681
+e334368852.055708
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp334368851#334368852#0(0"0(0#0#48"/Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp8608659200#846"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleBoard.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleBoard.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s335343428.792396
+e335343430.362626
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp335343428#335343430#0(0"0(0#0#63"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp3401968361984191488#940"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleChecker.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025977.967215
+e350025978.600073
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp350025977#350025978#0(0"0(0#0#97"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp8628777408#1144"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleChecker.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o /Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368854.046507
+e334368854.809840
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp334368854#334368854#0(0"0(0#0#50"/Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp8601809760#850"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleChecker.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleChecker.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleGraphics.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s350026242.003227
+e350026242.004185
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm350026242#350026242#0(0"0(0#0#97"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm8623969056#1155"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleGraphics.mm" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o /Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s334368851.093698
+e334368852.645097
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm334368851#334368852#0(0"0(0#0#50"/Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm8604375520#861"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleGraphics.mm -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleGraphics.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleLetter.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025977.369677
+e350025977.699063
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp350025977#350025977#0(0"0(0#0#96"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp8628842624#1142"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleLetter.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o /Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368853.405931
+e334368853.750158
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp334368853#334368853#0(0"0(0#0#49"/Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp8604226752#848"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleLetter.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s334389052.023721
+e334389052.621732
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp334389052#334389052#0(0"0(0#0#64"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp8619396160#942"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025978.691410
+e350025979.425536
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp350025978#350025979#0(0"0(0#0#98"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp8628882848#1146"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleOpponent.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o /Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334369969.965843
+e334369969.967578
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp334369969#334369969#0(0"0(0#0#51"/Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp8605287840#852"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleOpponent.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleOpponent.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabblePoint.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025976.645663
+e350025976.683843
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp350025976#350025976#0(0"0(0#0#95"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp8628823104#1140"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabblePoint.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o /Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368852.444827
+e334368852.644127
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o
+x/Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp334368852#334368852#0(0"0(0#0#48"/Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp8605469408#846"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabblePoint.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabblePoint.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s335343470.713448
+e335343470.944325
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp335343470#335343470#0(0"0(0#0#62"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp8605603712#938"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleRandom.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025978.306125
+e350025978.691325
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp350025978#350025978#0(0"0(0#0#96"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp8626420608#1142"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleRandom.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o /Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368854.594526
+e334368855.019871
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp334368854#334368855#0(0"0(0#0#49"/Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp8602269824#848"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleRandom.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleRandom.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleScore.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025978.600162
+e350025979.005680
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp350025978#350025979#0(0"0(0#0#95"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp8614768992#1140"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleScore.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o /Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368854.810049
+e334368855.369828
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp334368854#334368855#0(0"0(0#0#48"/Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp8611225600#846"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleScore.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleScore.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleSize.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025976.683942
+e350025976.714098
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp350025976#350025976#0(0"0(0#0#94"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp8628315840#1138"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleSize.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o /Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368852.644275
+e334368852.673964
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp334368852#334368852#0(0"0(0#0#47"/Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp8602368416#844"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleSize.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleSize.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleTile.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025976.321796
+e350025976.645574
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp350025976#350025976#0(0"0(0#0#94"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp8625660448#1138"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleTile.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o /Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368852.055782
+e334368852.444751
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp334368852#334368852#0(0"0(0#0#47"/Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp8607473760#844"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleTile.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleTile.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s334389152.434090
+e334389152.941790
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+x/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp334389152#334389152#0(0"0(0#0#60"/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp8595772800#934"    cd "/Users/maxlam/Desktop/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/ScrabbleUser.cpp" -o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s350025977.456842
+e350025977.967129
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp350025977#350025977#0(0"0(0#0#94"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp8628651648#1138"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleUser.cpp" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o /Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s334368853.411012
+e334368854.046416
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+x/Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp334368853#334368854#0(0"0(0#0#47"/Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp8603700704#844"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/ScrabbleUser.cpp -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/Sounds.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350116098.503139
+e350116098.516973
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m350116098#350116098#0(0"0(0#0#86"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m8605020896#1104"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Sounds.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o /Users/maxlam/Desktop/Scrabble/Sounds.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334368855.767662
+e334368856.461286
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o
+x/Users/maxlam/Desktop/Scrabble/Sounds.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/maxlam/Desktop/Scrabble/Sounds.m334368855#334368856#0(0"0(0#0#39"/Users/maxlam/Desktop/Scrabble/Sounds.m8607118976#810"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/Sounds.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Sounds.o0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o "/Users/maxlam/Desktop/Scrabble Mac/Scrabble/SpeechSynthesizer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s350025979.005851
+e350025979.722919
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o
+x/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m350025979#350025979#0(0"0(0#0#97"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m8626503648#1126"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap" -Wall -Wno-sign-compare -F. -Ics106 -Iinclude "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386" "-I/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources" -fstack-check -c "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/SpeechSynthesizer.m" -o "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o"0#
+
+CCompileC build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334368855.369905
+e334368856.128334
+r1
+xCompileC
+xbuild/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o
+x/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m334368855#334368856#0(0"0(0#0#50"/Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m8607626432#832"    cd /Users/maxlam/Desktop/Scrabble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Scrabble.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources/i386 -I/Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/DerivedSources -fstack-check -c /Users/maxlam/Desktop/Scrabble/SpeechSynthesizer.m -o /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/SpeechSynthesizer.o0#
+
+CCpResource ./Scrabble.app/Contents/Resources/Button.png ScrabbleResources/Button.png
+s350116098.428095
+e350116098.468738
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/Button.png
+xScrabbleResources/Button.png
+lSLF07#2@33"Copy ScrabbleResources/Button.png350116098#350116098#0(0"0(0#0#106"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/Button.png8604198496#472"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/Button.png" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/Scrabble.app ./Scrabble.app
+r0
+
+CCpResource ./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt ScrabbleResources/ScrabbleBonusPositions.txt
+s350116098.423561
+e350116098.451797
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+xScrabbleResources/ScrabbleBonusPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleBonusPositions.txt350116098#350116098#0(0"0(0#0#122"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt8602250144#488"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt ScrabbleResources/ScrabbleColorPositions.txt
+s350116098.424783
+e350116098.451920
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+xScrabbleResources/ScrabbleColorPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleColorPositions.txt350116098#350116098#0(0"0(0#0#122"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt8600597472#488"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/ScrabbleLogo.png ScrabbleResources/ScrabbleLogo.png
+s350116098.427351
+e350116098.501378
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/ScrabbleLogo.png
+xScrabbleResources/ScrabbleLogo.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleLogo.png350116098#350116098#0(0"0(0#0#112"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png8605164608#478"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/ScrabbleTile.png ScrabbleResources/ScrabbleTile.png
+s350116098.422439
+e350116098.452058
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/ScrabbleTile.png
+xScrabbleResources/ScrabbleTile.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleTile.png350116098#350116098#0(0"0(0#0#112"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png8604666624#478"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/click.wav ScrabbleResources/click.wav
+s350116098.425893
+e350116098.456880
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/click.wav
+xScrabbleResources/click.wav
+lSLF07#2@32"Copy ScrabbleResources/click.wav350116098#350116098#0(0"0(0#0#105"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/click.wav8607250272#471"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/click.wav" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/icon.icns icon.icns
+s350116098.429065
+e350116098.498363
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns350116098#350116098#0(0"0(0#0#87"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.icns8600509632#453"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.icns" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/icon.png icon.png
+s350024774.599772
+e350024774.623985
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png350024774#350024774#0(0"0(0#0#86"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.png8606409888#452"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.png" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./Scrabble.app/Contents/Resources/orbitron-black.ttf ScrabbleResources/orbitron-black.ttf
+s350116098.401190
+e350116098.497290
+r1
+xCpResource
+x./Scrabble.app/Contents/Resources/orbitron-black.ttf
+xScrabbleResources/orbitron-black.ttf
+lSLF07#2@41"Copy ScrabbleResources/orbitron-black.ttf350116098#350116098#0(0"0(0#0#114"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf8605174112#480"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf" "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/./Scrabble.app/Contents/Resources"0#
+
+CCpResource ./blank-project.app/Contents/Resources/Button.png ScrabbleResources/Button.png
+s334368825.768008
+e334368825.780527
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/Button.png
+xScrabbleResources/Button.png
+lSLF07#2@33"Copy ScrabbleResources/Button.png334368825#334368825#0(0"0(0#0#59"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/Button.png8604034944#330"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/Button.png /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/ScrabbleBonusPositions.txt ScrabbleResources/ScrabbleBonusPositions.txt
+s334368825.760635
+e334368825.770273
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/ScrabbleBonusPositions.txt
+xScrabbleResources/ScrabbleBonusPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleBonusPositions.txt334368825#334368825#0(0"0(0#0#75"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt8607686368#346"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/ScrabbleColorPositions.txt ScrabbleResources/ScrabbleColorPositions.txt
+s334368825.762746
+e334368825.770155
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/ScrabbleColorPositions.txt
+xScrabbleResources/ScrabbleColorPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleColorPositions.txt334368825#334368825#0(0"0(0#0#75"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt8607340544#346"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/ScrabbleLogo.png ScrabbleResources/ScrabbleLogo.png
+s334368825.766273
+e334368825.775019
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/ScrabbleLogo.png
+xScrabbleResources/ScrabbleLogo.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleLogo.png334368825#334368825#0(0"0(0#0#65"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleLogo.png8604999808#336"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleLogo.png /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/ScrabbleTile.png ScrabbleResources/ScrabbleTile.png
+s334368825.758856
+e334368825.776846
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/ScrabbleTile.png
+xScrabbleResources/ScrabbleTile.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleTile.png334368825#334368825#0(0"0(0#0#65"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleTile.png8608399424#336"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/ScrabbleTile.png /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/click.wav ScrabbleResources/click.wav
+s334368825.764394
+e334368825.774915
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/click.wav
+xScrabbleResources/click.wav
+lSLF07#2@32"Copy ScrabbleResources/click.wav334368825#334368825#0(0"0(0#0#58"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/click.wav8605627104#329"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/click.wav /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource ./blank-project.app/Contents/Resources/orbitron-black.ttf ScrabbleResources/orbitron-black.ttf
+s334368825.756932
+e334368825.770022
+r1
+xCpResource
+x./blank-project.app/Contents/Resources/orbitron-black.ttf
+xScrabbleResources/orbitron-black.ttf
+lSLF07#2@41"Copy ScrabbleResources/orbitron-black.ttf334368825#334368825#0(0"0(0#0#67"/Users/maxlam/Desktop/Scrabble/ScrabbleResources/orbitron-black.ttf8601322208#338"    cd /Users/maxlam/Desktop/Scrabble    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/maxlam/Desktop/Scrabble/ScrabbleResources/orbitron-black.ttf /Users/maxlam/Desktop/Scrabble/./blank-project.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/Button.png ScrabbleResources/Button.png
+s350025294.983579
+e350025294.991886
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/Button.png
+xScrabbleResources/Button.png
+lSLF07#2@33"Copy ScrabbleResources/Button.png350025294#350025294#0(0"0(0#0#106"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/Button.png8611604256#434"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/Button.png" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt ScrabbleResources/ScrabbleBonusPositions.txt
+s350025294.977895
+e350025294.988093
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleBonusPositions.txt
+xScrabbleResources/ScrabbleBonusPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleBonusPositions.txt350025294#350025294#0(0"0(0#0#122"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt8612324640#450"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleBonusPositions.txt" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt ScrabbleResources/ScrabbleColorPositions.txt
+s350025294.978756
+e350025294.998410
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleColorPositions.txt
+xScrabbleResources/ScrabbleColorPositions.txt
+lSLF07#2@49"Copy ScrabbleResources/ScrabbleColorPositions.txt350025294#350025294#0(0"0(0#0#122"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt8611726528#450"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleColorPositions.txt" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleLogo.png ScrabbleResources/ScrabbleLogo.png
+s350025294.981849
+e350025294.990945
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleLogo.png
+xScrabbleResources/ScrabbleLogo.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleLogo.png350025294#350025294#0(0"0(0#0#112"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png8611626304#440"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleLogo.png" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleTile.png ScrabbleResources/ScrabbleTile.png
+s350025294.977325
+e350025294.986934
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/ScrabbleTile.png
+xScrabbleResources/ScrabbleTile.png
+lSLF07#2@39"Copy ScrabbleResources/ScrabbleTile.png350025294#350025294#0(0"0(0#0#112"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png8607102112#440"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/ScrabbleTile.png" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/click.wav ScrabbleResources/click.wav
+s350025294.980282
+e350025294.993546
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/click.wav
+xScrabbleResources/click.wav
+lSLF07#2@32"Copy ScrabbleResources/click.wav350025294#350025294#0(0"0(0#0#105"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/click.wav8611696896#433"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/click.wav" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/icon.icns icon.icns
+s350025294.985205
+e350025294.995725
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns350025294#350025294#0(0"0(0#0#87"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.icns8611524576#415"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/icon.icns" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CCpResource /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/orbitron-black.ttf ScrabbleResources/orbitron-black.ttf
+s350025294.976633
+e350025294.998594
+r1
+xCpResource
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources/orbitron-black.ttf
+xScrabbleResources/orbitron-black.ttf
+lSLF07#2@41"Copy ScrabbleResources/orbitron-black.ttf350025294#350025294#0(0"0(0#0#114"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf8610358976#442"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/ScrabbleResources/orbitron-black.ttf" /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Resources0#
+
+CLd ./Scrabble.app/Contents/MacOS/Scrabble normal i386
+s350116123.738737
+e350116123.807839
+r1
+xLd
+x./Scrabble.app/Contents/MacOS/Scrabble
+xnormal
+xi386
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+lSLF07#2@43"Link ./Scrabble.app/Contents/MacOS/Scrabble350116123#350116123#0(1545"ld: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o5(22@279"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350116123#0#293#0(6@0"350116123#0#0#0#0#0"0(22@278"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350116123#293#292#0(6@0"350116123#0#0#0#0#0"0(22@361"__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o350116123#585#375#0(6@0"350116123#0#0#0#0#0"0(22@280"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350116123#960#294#0(6@0"350116123#0#0#0#0#0"0(22@277"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350116123#1254#291#0(6@0"350116123#0#0#0#0#0"0(0#0#0"8607572032#661"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L. -Lcs106 "-L/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106" -F. -filelist "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -framework QuartzCore -framework AppKit -o ./Scrabble.app/Contents/MacOS/Scrabble0#
+
+CLd ./blank-project.app/Contents/MacOS/blank-project normal i386
+s334368830.935041
+e334368831.007765
+r1
+xLd
+x./blank-project.app/Contents/MacOS/blank-project
+xnormal
+xi386
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+lSLF07#2@53"Link ./blank-project.app/Contents/MacOS/blank-project334368830#334368831#0(1310"ld: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o5(22@232"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o334368831#0#246#0(6@0"334368831#0#0#0#0#0"0(22@231"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o334368831#246#245#0(6@0"334368831#0#0#0#0#0"0(22@314"__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o334368831#491#328#0(6@0"334368831#0#0#0#0#0"0(22@233"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o334368831#819#247#0(6@0"334368831#0#0#0#0#0"0(22@230"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o334368831#1066#244#0(6@0"334368831#0#0#0#0#0"0(0#0#0"8611241696#529"    cd /Users/maxlam/Desktop/Scrabble    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L. -Lcs106 -L/Users/maxlam/Desktop/Scrabble/cs106 -F. -filelist /Users/maxlam/Desktop/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/blank-project.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -framework QuartzCore -framework AppKit -o ./blank-project.app/Contents/MacOS/blank-project0#
+
+CLd /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/MacOS/Scrabble normal i386
+s350025294.999368
+e350025295.075094
+r1
+xLd
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/MacOS/Scrabble
+xnormal
+xi386
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o
+lSLF07#2@85"Link /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/MacOS/Scrabble350025294#350025295#0(1545"ld: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: __gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.old: warning: std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o5(22@279"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(lexicon.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350025295#0#293#0(6@0"350025295#0#0#0#0#0"0(22@278"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(genlib.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350025295#293#292#0(6@0"350025295#0#0#0#0#0"0(22@361"__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() consthas different visibility (default) in cs106/libcs106.a(strutils.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleLetter.o350025295#585#375#0(6@0"350025295#0#0#0#0#0"0(22@280"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(graphics.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350025295#960#294#0(6@0"350025295#0#0#0#0#0"0(22@277"Std::char_traits<char>::length(char const*)has different visibility (default) in cs106/libcs106.a(sound.o) and (hidden) in /Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/ScrabbleUser.o350025295#1254#291#0(6@0"350025295#0#0#0#0#0"0(0#0#0"8590353408#703"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L. -Lcs106 "-L/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/cs106" -F. -filelist "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/build/Scrabble.build/Debug/Scrabble.build/Objects-normal/i386/Scrabble.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -framework QuartzCore -framework AppKit -o /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/MacOS/Scrabble0#
+
+CProcessInfoPlistFile ./Scrabble.app/Contents/Info.plist Info.plist
+s350116098.387052
+e350116098.401041
+r1
+xProcessInfoPlistFile
+x./Scrabble.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist350116098#350116098#0(152"warning: 'CFBundleSignature' is 'Max Lam', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'1(22@142"'CFBundleSignature' is 'Max Lam', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'350116098#18446744073709551615#0#0(6@0"350116098#0#0#0#0#0"0(0#0#88"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Info.plist18859025310417008#247"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    builtin-infoPlistUtility Info.plist -genpkginfo ./Scrabble.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./Scrabble.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile ./blank-project.app/Contents/Info.plist Info.plist
+s334368825.748286
+e334368825.756858
+r1
+xProcessInfoPlistFile
+x./blank-project.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist334368825#334368825#0(0"0(0#0#41"/Users/maxlam/Desktop/Scrabble/Info.plist8602214560#208"    cd /Users/maxlam/Desktop/Scrabble    builtin-infoPlistUtility Info.plist -genpkginfo ./blank-project.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./blank-project.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Info.plist Info.plist
+s350025294.970062
+e350025294.976474
+r1
+xProcessInfoPlistFile
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist350025294#350025294#0(152"warning: 'CFBundleSignature' is 'Max Lam', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'1(22@142"'CFBundleSignature' is 'Max Lam', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'350025294#18446744073709551615#0#0(6@0"350025294#0#0#0#0#0"0(0#0#88"/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble/Info.plist31525614006435940#331"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    builtin-infoPlistUtility Info.plist -genpkginfo /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app/Contents/Info.plist0#
+
+CSymLink ./Scrabble.app /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app
+s350025301.956223
+e350025301.969940
+r1
+xSymLink
+x./Scrabble.app
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app
+lSLF07#2@22"Process ./Scrabble.app350025301#350025301#0(0"0(0#0#0"8594546112#175"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /bin/ln -sf /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app ./Scrabble.app0#
+
+CTouch ./Scrabble.app
+s350116123.807916
+e350116123.809927
+r1
+xTouch
+x./Scrabble.app
+lSLF07#2@20"Touch ./Scrabble.app350116123#350116123#0(0"0(0#0#0"8607502208#124"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /usr/bin/touch -c ./Scrabble.app0#
+
+CTouch ./blank-project.app
+s334368831.007854
+e334368831.010193
+r1
+xTouch
+x./blank-project.app
+lSLF07#2@25"Touch ./blank-project.app334368831#334368831#0(0"0(0#0#0"8611064192#80"    cd /Users/maxlam/Desktop/Scrabble    /usr/bin/touch -c ./blank-project.app0#
+
+CTouch /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app
+s350025295.075166
+e350025295.080184
+r1
+xTouch
+x/tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app
+lSLF07#2@62"Touch /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app350025295#350025295#0(0"0(0#0#0"8610628288#166"    cd "/Users/maxlam/Desktop/SummerSchool/Stanford Programming/Scrabble Mac/Scrabble"    /usr/bin/touch -c /tmp/Scrabble.dst/Users/maxlam/Applications/Scrabble.app0#
+

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB652DD11D468A30087F1FB /* Scrabble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB652DC11D468A30087F1FB /* Scrabble.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CD0022B213E4B7D0009A5E59 /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0022B113E4B7D0009A5E59 /* SpeechSynthesizer.m */; };
+		CD0022E513E4BF19009A5E59 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD0022E413E4BF19009A5E59 /* click.wav */; };
+		CD0022E813E4BF2B009A5E59 /* Sounds.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0022E713E4BF2B009A5E59 /* Sounds.m */; };
+		CD07FC4813EA7AE800241259 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = CD07FC4713EA7AE800241259 /* Popup.m */; };
+		CD17A72313DB44560044CE53 /* ScrabbleUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD17A72213DB44560044CE53 /* ScrabbleUser.cpp */; };
+		CD17A80A13DB4FCC0044CE53 /* GraphicsContent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17A80913DB4FCC0044CE53 /* GraphicsContent.m */; };
+		CD17ADC913DB93880044CE53 /* ScrabbleChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD17ADC813DB93880044CE53 /* ScrabbleChecker.cpp */; };
+		CD18320A14DCF47F003C998F /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD18320914DCF47F003C998F /* icon.icns */; };
+		CD39314E13D9EDAB007CA502 /* GraphicsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CD39314D13D9EDAB007CA502 /* GraphicsCore.m */; };
+		CD39342F13DA0719007CA502 /* GraphicsBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD39342E13DA0719007CA502 /* GraphicsBlock.m */; };
+		CD3935E713DA1C2A007CA502 /* orbitron-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD3935E513DA1C2A007CA502 /* orbitron-black.ttf */; };
+		CD3935E813DA1C2A007CA502 /* ScrabbleTile.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3935E613DA1C2A007CA502 /* ScrabbleTile.png */; };
+		CD3D9AD213DA453E0002E41C /* ScrabbleBonusPositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD3D9AD013DA453E0002E41C /* ScrabbleBonusPositions.txt */; };
+		CD3D9AD313DA453E0002E41C /* ScrabbleColorPositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD3D9AD113DA453E0002E41C /* ScrabbleColorPositions.txt */; };
+		CD3D9FE513DA67F80002E41C /* ScrabbleLetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD3D9FE413DA67F80002E41C /* ScrabbleLetter.cpp */; };
+		CD6DF62413DD3F7200F07F0D /* ScrabbleScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD6DF62313DD3F7200F07F0D /* ScrabbleScore.cpp */; };
+		CD9A2A3113DBE23700D2E6D9 /* ScrabbleRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD9A2A3013DBE23700D2E6D9 /* ScrabbleRandom.cpp */; };
+		CDA73D7413DA9EB60038E553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA73D7313DA9EB60038E553 /* QuartzCore.framework */; };
+		CDA73FE713DABD7D0038E553 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA73FE613DABD7D0038E553 /* AppKit.framework */; };
+		CDB3157313D953E900575DAD /* ScrabbleGraphics.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB3157213D953E900575DAD /* ScrabbleGraphics.mm */; };
+		CDB315B713D958C000575DAD /* ScrabbleBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB315B613D958C000575DAD /* ScrabbleBoard.cpp */; };
+		CDB315C413D95A0C00575DAD /* ScrabbleTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB315C313D95A0C00575DAD /* ScrabbleTile.cpp */; };
+		CDB315C713D95B2700575DAD /* ScrabblePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB315C613D95B2700575DAD /* ScrabblePoint.cpp */; };
+		CDB315DC13D95CC800575DAD /* ScrabbleSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB315DB13D95CC800575DAD /* ScrabbleSize.cpp */; };
+		CDCB01E313DE66C1004D33CD /* ScrabbleOpponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDCB01E213DE66C1004D33CD /* ScrabbleOpponent.cpp */; };
+		CDD9A85E13EB94E700F7BBE5 /* ScrabbleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD9A85D13EB94E700F7BBE5 /* ScrabbleLogo.png */; };
+		CDD9A8AE13EB9A0B00F7BBE5 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD9A8AD13EB9A0B00F7BBE5 /* Button.png */; };
+		E3DDB4070D2F5EB100348E1D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB4060D2F5EB100348E1D /* Carbon.framework */; };
+		E3DDB40C0D2F5EBE00348E1D /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */; };
+		E3DDB4120D2F60C500348E1D /* libcs106.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB4110D2F60C500348E1D /* libcs106.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		5DB652DC11D468A30087F1FB /* Scrabble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scrabble.cpp; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD0022B013E4B7D0009A5E59 /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		CD0022B113E4B7D0009A5E59 /* SpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizer.m; sourceTree = "<group>"; };
+		CD0022E413E4BF19009A5E59 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		CD0022E613E4BF2B009A5E59 /* Sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sounds.h; sourceTree = "<group>"; };
+		CD0022E713E4BF2B009A5E59 /* Sounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sounds.m; sourceTree = "<group>"; };
+		CD07FC4613EA7AE800241259 /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		CD07FC4713EA7AE800241259 /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
+		CD17A72113DB44560044CE53 /* ScrabbleUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleUser.h; sourceTree = "<group>"; };
+		CD17A72213DB44560044CE53 /* ScrabbleUser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleUser.cpp; sourceTree = "<group>"; };
+		CD17A80813DB4FCC0044CE53 /* GraphicsContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsContent.h; sourceTree = "<group>"; };
+		CD17A80913DB4FCC0044CE53 /* GraphicsContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsContent.m; sourceTree = "<group>"; };
+		CD17ADC713DB93880044CE53 /* ScrabbleChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleChecker.h; sourceTree = "<group>"; };
+		CD17ADC813DB93880044CE53 /* ScrabbleChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleChecker.cpp; sourceTree = "<group>"; };
+		CD18320214DCF431003C998F /* Scrabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD18320914DCF47F003C998F /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		CD39314C13D9EDAB007CA502 /* GraphicsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCore.h; sourceTree = "<group>"; };
+		CD39314D13D9EDAB007CA502 /* GraphicsCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsCore.m; sourceTree = "<group>"; };
+		CD39342D13DA0719007CA502 /* GraphicsBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsBlock.h; sourceTree = "<group>"; };
+		CD39342E13DA0719007CA502 /* GraphicsBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsBlock.m; sourceTree = "<group>"; };
+		CD3935E513DA1C2A007CA502 /* orbitron-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orbitron-black.ttf"; sourceTree = "<group>"; };
+		CD3935E613DA1C2A007CA502 /* ScrabbleTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrabbleTile.png; sourceTree = "<group>"; };
+		CD3D9AD013DA453E0002E41C /* ScrabbleBonusPositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrabbleBonusPositions.txt; sourceTree = "<group>"; };
+		CD3D9AD113DA453E0002E41C /* ScrabbleColorPositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrabbleColorPositions.txt; sourceTree = "<group>"; };
+		CD3D9FE313DA67F80002E41C /* ScrabbleLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleLetter.h; sourceTree = "<group>"; };
+		CD3D9FE413DA67F80002E41C /* ScrabbleLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleLetter.cpp; sourceTree = "<group>"; };
+		CD6DF62213DD3F7200F07F0D /* ScrabbleScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleScore.h; sourceTree = "<group>"; };
+		CD6DF62313DD3F7200F07F0D /* ScrabbleScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleScore.cpp; sourceTree = "<group>"; };
+		CD9A2A2F13DBE23700D2E6D9 /* ScrabbleRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleRandom.h; sourceTree = "<group>"; };
+		CD9A2A3013DBE23700D2E6D9 /* ScrabbleRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleRandom.cpp; sourceTree = "<group>"; };
+		CDA73D7313DA9EB60038E553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDA73FE613DABD7D0038E553 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CDB3157113D953E900575DAD /* ScrabbleGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleGraphics.h; sourceTree = "<group>"; };
+		CDB3157213D953E900575DAD /* ScrabbleGraphics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScrabbleGraphics.mm; sourceTree = "<group>"; };
+		CDB315B513D958C000575DAD /* ScrabbleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleBoard.h; sourceTree = "<group>"; };
+		CDB315B613D958C000575DAD /* ScrabbleBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleBoard.cpp; sourceTree = "<group>"; };
+		CDB315C213D95A0C00575DAD /* ScrabbleTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleTile.h; sourceTree = "<group>"; };
+		CDB315C313D95A0C00575DAD /* ScrabbleTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleTile.cpp; sourceTree = "<group>"; };
+		CDB315C513D95B2700575DAD /* ScrabblePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabblePoint.h; sourceTree = "<group>"; };
+		CDB315C613D95B2700575DAD /* ScrabblePoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabblePoint.cpp; sourceTree = "<group>"; };
+		CDB315DA13D95CC800575DAD /* ScrabbleSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleSize.h; sourceTree = "<group>"; };
+		CDB315DB13D95CC800575DAD /* ScrabbleSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleSize.cpp; sourceTree = "<group>"; };
+		CDCB01E113DE66C1004D33CD /* ScrabbleOpponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleOpponent.h; sourceTree = "<group>"; };
+		CDCB01E213DE66C1004D33CD /* ScrabbleOpponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrabbleOpponent.cpp; sourceTree = "<group>"; };
+		CDD9A85D13EB94E700F7BBE5 /* ScrabbleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrabbleLogo.png; sourceTree = "<group>"; };
+		CDD9A8AD13EB9A0B00F7BBE5 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		CDD9A90C13EBA5F100F7BBE5 /* ScrabbleGameStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrabbleGameStates.h; sourceTree = "<group>"; };
+		E3DDB4060D2F5EB100348E1D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E3DDB4110D2F60C500348E1D /* libcs106.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcs106.a; path = cs106/libcs106.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E3DDB4070D2F5EB100348E1D /* Carbon.framework in Frameworks */,
+				E3DDB40C0D2F5EBE00348E1D /* QuickTime.framework in Frameworks */,
+				E3DDB4120D2F60C500348E1D /* libcs106.a in Frameworks */,
+				CDA73D7413DA9EB60038E553 /* QuartzCore.framework in Frameworks */,
+				CDA73FE713DABD7D0038E553 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD18320214DCF431003C998F /* Scrabble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* blank-project */ = {
+			isa = PBXGroup;
+			children = (
+				5DB652DC11D468A30087F1FB /* Scrabble.cpp */,
+				CD73AA8013EDD43100912EB5 /* Scrabble Files */,
+				CD73AA7413EDD42300912EB5 /* External Layers */,
+				CD3935E413DA1C2A007CA502 /* ScrabbleResources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "blank-project";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD18320914DCF47F003C998F /* icon.icns */,
+				E3DDB4110D2F60C500348E1D /* libcs106.a */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */,
+				E3DDB4060D2F5EB100348E1D /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				CDA73D7313DA9EB60038E553 /* QuartzCore.framework */,
+				CDA73FE613DABD7D0038E553 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3935E413DA1C2A007CA502 /* ScrabbleResources */ = {
+			isa = PBXGroup;
+			children = (
+				CD0022E413E4BF19009A5E59 /* click.wav */,
+				CDD9A8AD13EB9A0B00F7BBE5 /* Button.png */,
+				CDD9A85D13EB94E700F7BBE5 /* ScrabbleLogo.png */,
+				CD3D9AD013DA453E0002E41C /* ScrabbleBonusPositions.txt */,
+				CD3D9AD113DA453E0002E41C /* ScrabbleColorPositions.txt */,
+				CD3935E513DA1C2A007CA502 /* orbitron-black.ttf */,
+				CD3935E613DA1C2A007CA502 /* ScrabbleTile.png */,
+			);
+			path = ScrabbleResources;
+			sourceTree = "<group>";
+		};
+		CD73AA7413EDD42300912EB5 /* External Layers */ = {
+			isa = PBXGroup;
+			children = (
+				CD39314C13D9EDAB007CA502 /* GraphicsCore.h */,
+				CD39314D13D9EDAB007CA502 /* GraphicsCore.m */,
+				CD07FC4613EA7AE800241259 /* Popup.h */,
+				CD07FC4713EA7AE800241259 /* Popup.m */,
+				CD17A80813DB4FCC0044CE53 /* GraphicsContent.h */,
+				CD17A80913DB4FCC0044CE53 /* GraphicsContent.m */,
+				CD39342D13DA0719007CA502 /* GraphicsBlock.h */,
+				CD39342E13DA0719007CA502 /* GraphicsBlock.m */,
+				CD0022E613E4BF2B009A5E59 /* Sounds.h */,
+				CD0022E713E4BF2B009A5E59 /* Sounds.m */,
+				CD0022B013E4B7D0009A5E59 /* SpeechSynthesizer.h */,
+				CD0022B113E4B7D0009A5E59 /* SpeechSynthesizer.m */,
+			);
+			name = "External Layers";
+			sourceTree = "<group>";
+		};
+		CD73AA8013EDD43100912EB5 /* Scrabble Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A90C13EBA5F100F7BBE5 /* ScrabbleGameStates.h */,
+				CDB3157113D953E900575DAD /* ScrabbleGraphics.h */,
+				CDB3157213D953E900575DAD /* ScrabbleGraphics.mm */,
+				CDB315B513D958C000575DAD /* ScrabbleBoard.h */,
+				CDB315B613D958C000575DAD /* ScrabbleBoard.cpp */,
+				CDB315C213D95A0C00575DAD /* ScrabbleTile.h */,
+				CDB315C313D95A0C00575DAD /* ScrabbleTile.cpp */,
+				CD3D9FE313DA67F80002E41C /* ScrabbleLetter.h */,
+				CD3D9FE413DA67F80002E41C /* ScrabbleLetter.cpp */,
+				CDCB01E113DE66C1004D33CD /* ScrabbleOpponent.h */,
+				CDCB01E213DE66C1004D33CD /* ScrabbleOpponent.cpp */,
+				CD17A72113DB44560044CE53 /* ScrabbleUser.h */,
+				CD17A72213DB44560044CE53 /* ScrabbleUser.cpp */,
+				CD17ADC713DB93880044CE53 /* ScrabbleChecker.h */,
+				CD17ADC813DB93880044CE53 /* ScrabbleChecker.cpp */,
+				CD9A2A2F13DBE23700D2E6D9 /* ScrabbleRandom.h */,
+				CD9A2A3013DBE23700D2E6D9 /* ScrabbleRandom.cpp */,
+				CD6DF62213DD3F7200F07F0D /* ScrabbleScore.h */,
+				CD6DF62313DD3F7200F07F0D /* ScrabbleScore.cpp */,
+				CDB315C513D95B2700575DAD /* ScrabblePoint.h */,
+				CDB315C613D95B2700575DAD /* ScrabblePoint.cpp */,
+				CDB315DA13D95CC800575DAD /* ScrabbleSize.h */,
+				CDB315DB13D95CC800575DAD /* ScrabbleSize.cpp */,
+			);
+			name = "Scrabble Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Scrabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Scrabble" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrabble;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "blank-project";
+			productReference = CD18320214DCF431003C998F /* Scrabble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Scrabble" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* blank-project */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Scrabble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3935E713DA1C2A007CA502 /* orbitron-black.ttf in Resources */,
+				CD3935E813DA1C2A007CA502 /* ScrabbleTile.png in Resources */,
+				CD3D9AD213DA453E0002E41C /* ScrabbleBonusPositions.txt in Resources */,
+				CD3D9AD313DA453E0002E41C /* ScrabbleColorPositions.txt in Resources */,
+				CD0022E513E4BF19009A5E59 /* click.wav in Resources */,
+				CDD9A85E13EB94E700F7BBE5 /* ScrabbleLogo.png in Resources */,
+				CDD9A8AE13EB9A0B00F7BBE5 /* Button.png in Resources */,
+				CD18320A14DCF47F003C998F /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB652DD11D468A30087F1FB /* Scrabble.cpp in Sources */,
+				CDB3157313D953E900575DAD /* ScrabbleGraphics.mm in Sources */,
+				CDB315B713D958C000575DAD /* ScrabbleBoard.cpp in Sources */,
+				CDB315C413D95A0C00575DAD /* ScrabbleTile.cpp in Sources */,
+				CDB315C713D95B2700575DAD /* ScrabblePoint.cpp in Sources */,
+				CDB315DC13D95CC800575DAD /* ScrabbleSize.cpp in Sources */,
+				CD39314E13D9EDAB007CA502 /* GraphicsCore.m in Sources */,
+				CD39342F13DA0719007CA502 /* GraphicsBlock.m in Sources */,
+				CD3D9FE513DA67F80002E41C /* ScrabbleLetter.cpp in Sources */,
+				CD17A72313DB44560044CE53 /* ScrabbleUser.cpp in Sources */,
+				CD17A80A13DB4FCC0044CE53 /* GraphicsContent.m in Sources */,
+				CD17ADC913DB93880044CE53 /* ScrabbleChecker.cpp in Sources */,
+				CD9A2A3113DBE23700D2E6D9 /* ScrabbleRandom.cpp in Sources */,
+				CD6DF62413DD3F7200F07F0D /* ScrabbleScore.cpp in Sources */,
+				CDCB01E313DE66C1004D33CD /* ScrabbleOpponent.cpp in Sources */,
+				CD0022B213E4B7D0009A5E59 /* SpeechSynthesizer.m in Sources */,
+				CD0022E813E4BF2B009A5E59 /* Sounds.m in Sources */,
+				CD07FC4813EA7AE800241259 /* Popup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/cs106\"";
+				PRODUCT_NAME = Scrabble;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = .;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = cs106;
+				OTHER_CFLAGS = "-fstack-check";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				USER_HEADER_SEARCH_PATHS = cs106;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Scrabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Scrabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
